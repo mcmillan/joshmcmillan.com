@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf dist
+webpack
+cd dist
+AWS_PROFILE=personal aws s3 sync . s3://joshmcmillan.com --acl public-read
