@@ -27,13 +27,7 @@
 }
 
 body {
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   border-top: 0.75rem #222 solid;
   background-color: #000;
-}
-
-@media screen and (min-width: 500px) {
-  body {
-    padding: 2rem 3rem;
-  }
 }

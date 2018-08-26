@@ -1,7 +1,8 @@
 import * as React from "react";
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Helmet from "react-helmet";
 
+import Container from "./components/Container";
 import Header from "./components/Header";
 import Body from "./components/Body";
 
@@ -10,7 +11,6 @@ import NotFound from "./pages/NotFound";
 import BlogPost from "./pages/BlogPost";
 import BlogIndex from "./pages/BlogIndex";
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { blogPath } from "./util/paths";
 
 const HelmetStuff = () => (
@@ -22,7 +22,7 @@ const HelmetStuff = () => (
 
 export default () => (
   <BrowserRouter>
-    <main>
+    <Container>
       <HelmetStuff />
       <Header />
       <Body>
@@ -33,6 +33,6 @@ export default () => (
           <Route component={NotFound} />
         </Switch>
       </Body>
-    </main>
+    </Container>
   </BrowserRouter>
 );
