@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.tsx",
-  mode: "development",
+  mode: process.env.PROD == "yah" ? "production" : "development",
   module: {
     rules: [
       // typescript
