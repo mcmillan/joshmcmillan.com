@@ -32,6 +32,9 @@ body {
   font-size: 1.25rem;
   line-height: 1.5;
   padding: 2rem;
+  border-top: 0.75rem #222 solid;
+  background-color: #000;
+  color: #fff;
 }
 
 
