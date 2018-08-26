@@ -14,10 +14,12 @@ export default styled.div`
   h6 {
     color: #fff;
     font-size: inherit;
-    font-family: "GT Super", serif;
     font-weight: bold;
-    border-bottom: 1px #111 solid;
-    padding-bottom: 0.25rem;
+    margin-top: 1rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   h1,
@@ -27,7 +29,7 @@ export default styled.div`
   h5,
   h6,
   p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   h1 {
