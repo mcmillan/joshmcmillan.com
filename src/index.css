@@ -1,24 +1,23 @@
 @font-face {
-  font-family: 'GT Super';
+  font-family: "GT Super";
   font-weight: bold;
-  src: url('./fonts/GT-Super-Display-Bold.woff2') format('woff2'),
-       url('./fonts/GT-Super-Display-Bold.woff') format('woff');
+  src: url("./fonts/GT-Super-Display-Bold.woff2") format("woff2"),
+    url("./fonts/GT-Super-Display-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'GT Eesti';
+  font-family: "GT Eesti";
   font-weight: normal;
-  src: url('./fonts/GT-Eesti-Text-Regular.woff2') format('woff2'),
-       url('./fonts/GT-Eesti-Text-Regular.woff') format('woff');
+  src: url("./fonts/GT-Eesti-Text-Regular.woff2") format("woff2"),
+    url("./fonts/GT-Eesti-Text-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'GT Eesti';
+  font-family: "GT Eesti";
   font-weight: bold;
-  src: url('./fonts/GT-Eesti-Text-Bold.woff2') format('woff2'),
-       url('./fonts/GT-Eesti-Text-Bold.woff') format('woff');
+  src: url("./fonts/GT-Eesti-Text-Bold.woff2") format("woff2"),
+    url("./fonts/GT-Eesti-Text-Bold.woff") format("woff");
 }
-
 
 * {
   margin: 0;
@@ -28,15 +27,10 @@
 }
 
 body {
-  font-family: 'GT Eesti', sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.5;
   padding: 2rem;
   border-top: 0.75rem #222 solid;
   background-color: #000;
-  color: #fff;
 }
-
 
 @media screen and (min-width: 500px) {
   body {

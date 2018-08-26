@@ -29,5 +29,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "josh mcmillan"
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true
+  }
 };
