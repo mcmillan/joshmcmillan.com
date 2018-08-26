@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import BlogPost from "./pages/BlogPost";
 
 const HelmetStuff = () => (
   <Helmet>
@@ -25,6 +26,7 @@ export default () => (
       <Body>
         <Switch>
           <Route path="/" component={Home} exact />
+          <Route path="/blog/:id" component={BlogPost} />
           <Route component={NotFound} />
         </Switch>
       </Body>

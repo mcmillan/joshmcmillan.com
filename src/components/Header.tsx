@@ -10,6 +10,8 @@ export default () => (
 const Header = styled.header`
   display: flex;
   align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px #222 solid;
 `;
 
 const Ident = styled.div`
