@@ -1,5 +1,5 @@
-import * as React from 'react';
-import styled from 'styled-components';
+import * as React from "react";
+import styled from "styled-components";
 
 export default () => (
   <Header>
@@ -13,8 +13,8 @@ const Header = styled.header`
 `;
 
 const Ident = styled.div`
-  font-family: 'GT Super';
+  font-family: "GT Super";
   font-weight: bold;
   font-size: 2.5rem;
+  color: #fff;
 `;
-
