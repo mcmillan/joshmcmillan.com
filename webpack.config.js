@@ -27,7 +27,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "josh mcmillan"
+      title: "josh mcmillan",
+      hash: true
     })
   ],
   devServer: {
