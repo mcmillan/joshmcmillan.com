@@ -9,5 +9,5 @@ export default () => (
 
 const Body = styled.div`
   padding-top: 1rem;
-  color: #444;
+  color: #999;
 `;
