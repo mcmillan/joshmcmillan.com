@@ -11,14 +11,12 @@ export default () => (
 const Header = styled.header`
   display: flex;
   align-items: center;
-  padding-bottom: 1rem;
-  border-bottom: 2px #222 solid;
 `;
 
 const Ident = styled(Link).attrs({ to: "/" })`
   font-family: "GT Super";
   font-weight: bold;
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 `;

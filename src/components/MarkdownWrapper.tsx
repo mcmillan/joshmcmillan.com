@@ -12,7 +12,7 @@ export default styled.div`
   h4,
   h5,
   h6 {
-    color: #fff;
+    color: #000;
     font-size: inherit;
     font-weight: bold;
     margin-top: 1rem;
