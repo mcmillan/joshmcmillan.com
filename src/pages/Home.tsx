@@ -1,9 +1,53 @@
 import * as React from "react";
+import styled from "styled-components";
 import Text from "../components/Text";
+import ExternalLink from "../components/ExternalLink";
 
 export default () => (
-  <Text>
-    Hiya. I'm a software engineer based in London. This site will eventually
-    have more stuff, but for now, this is all.
-  </Text>
+  <>
+    <Segment>
+      <Text>
+        Now
+        <br />
+        <ExternalLink href="https://www.daisie.com">Daisie</ExternalLink>
+      </Text>
+    </Segment>
+    <Segment>
+      <Text>
+        Before
+        <br />
+        <ExternalLink href="https://deliveroo.co.uk">Deliveroo</ExternalLink>
+        <br />
+        <ExternalLink href="https://www.gov.uk">GDS</ExternalLink>
+        <br />
+        <ExternalLink href="https://www.beano.com">Beano</ExternalLink>
+        <br />
+        <ExternalLink href="https://www.wonderbly.com">Wonderbly</ExternalLink>
+        <br />
+        <ExternalLink href="https://bricklane.com">Bricklane</ExternalLink>
+      </Text>
+    </Segment>
+    <Segment>
+      <Text>
+        Links
+        <br />
+        <ExternalLink href="https://twitter.com/jshmc">Twitter</ExternalLink>
+        <br />
+        <ExternalLink href="https://www.instagram.com/mcmillan.jpg/">
+          Instagram
+        </ExternalLink>
+        <br />
+        <ExternalLink href="https://github.com/mcmillan">GitHub</ExternalLink>
+        <br />
+        <ExternalLink href="https://www.linkedin.com/in/jshmc/">
+          LinkedIn
+        </ExternalLink>{" "}
+        (no recruiters)
+      </Text>
+    </Segment>
+  </>
 );
+
+const Segment = styled.div`
+  margin-bottom: 1rem;
+`;
