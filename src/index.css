@@ -23,10 +23,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   padding: 1.25rem 2rem;
-  background-color: #000;
+  background-color: #fff;
 }
