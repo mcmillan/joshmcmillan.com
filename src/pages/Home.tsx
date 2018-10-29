@@ -33,11 +33,6 @@ export default () => (
       </ExternalLink>
       <br />
       <ExternalLink href="https://github.com/mcmillan">GitHub</ExternalLink>
-      <br />
-      <ExternalLink href="https://www.linkedin.com/in/jshmc/">
-        LinkedIn
-      </ExternalLink>{" "}
-      (no recruiters)
     </Segment>
   </>
 );
