@@ -1,8 +1,11 @@
 #!/bin/bash
 
-set -euxo pipefail
+set -eo pipefail
 
-: ${AWS_PROFILE:?"Provide an AWS_PROFILE, please!"}
+[ -z $AWS_PROFILE ] && (echo "Provide an AWS_PROFILE, please!" && exit 1)
+git diff-index --quiet HEAD || (echo "Commit your work, please!" && exit 1)
+
+set -u
 
 npm run build
 cd dist
