@@ -2,29 +2,40 @@ import * as React from "react";
 import styled from "styled-components";
 import Text from "../components/Text";
 import ExternalLink from "../components/ExternalLink";
+import { string } from "prop-types";
 
 export default () => (
   <>
     <Segment>
-      Now
-      <br />
-      <ExternalLink href="https://www.daisie.com">Daisie</ExternalLink>
+      <Subtitle>Currently</Subtitle>
+      <Gig role="Building stuff" org="Daisie" url="https://www.daisie.com" />
     </Segment>
     <Segment>
-      Before
-      <br />
-      <ExternalLink href="https://deliveroo.co.uk">Deliveroo</ExternalLink>
-      <br />
-      <ExternalLink href="https://www.gov.uk">GDS</ExternalLink>
-      <br />
-      <ExternalLink href="https://www.beano.com">Beano</ExternalLink>
-      <br />
-      <ExternalLink href="https://www.wonderbly.com">Wonderbly</ExternalLink>
-      <br />
-      <ExternalLink href="https://bricklane.com">Bricklane</ExternalLink>
+      <Subtitle>Previously</Subtitle>
+      <Gig
+        role="Delivering food"
+        org="Deliveroo"
+        url="https://deliveroo.co.uk"
+      />
+      <Gig role="Making kids laugh" org="Beano" url="https://www.beano.com" />
+      <Gig
+        role="Pleasing our alien overlords"
+        org="GDS"
+        url="https://www.gov.uk"
+      />
+      <Gig
+        role="Creating books for kids"
+        org="Wonderbly"
+        url="https://www.wonderbly.com"
+      />
+      <Gig
+        role="Democratising property"
+        org="Bricklane"
+        url="https://bricklane.com"
+      />
     </Segment>
     <Segment>
-      Links
+      <Subtitle>Links</Subtitle>
       <br />
       <ExternalLink href="https://twitter.com/jshmc">Twitter</ExternalLink>
       <br />
@@ -41,3 +52,23 @@ const Segment = styled(Text)`
   display: block;
   margin-bottom: 1rem;
 `;
+
+const Subtitle = styled.div`
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+`;
+
+interface GigProps {
+  role: string;
+  org: string;
+  url: string;
+}
+
+const Gig = ({ role, org, url }: GigProps) => (
+  <div>
+    {role} at <ExternalLink href={url}>{org}</ExternalLink>
+  </div>
+);
