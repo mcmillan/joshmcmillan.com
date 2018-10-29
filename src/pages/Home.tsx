@@ -9,11 +9,7 @@ export default () => (
     <Segment>{description}</Segment>
     <Segment>
       <Subtitle>Currently</Subtitle>
-      <Gig
-        role="Consolidating power"
-        org="Daisie"
-        url="https://www.daisie.com"
-      />
+      <Gig role="Software" org="Daisie" url="https://www.daisie.com" />
     </Segment>
     <Segment>
       <Subtitle>Previously</Subtitle>
