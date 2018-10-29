@@ -9,12 +9,16 @@ export default () => (
     <Segment>{description}</Segment>
     <Segment>
       <Subtitle>Currently</Subtitle>
-      <Gig role="Building stuff" org="Daisie" url="https://www.daisie.com" />
+      <Gig
+        role="Consolidating power"
+        org="Daisie"
+        url="https://www.daisie.com"
+      />
     </Segment>
     <Segment>
       <Subtitle>Previously</Subtitle>
       <Gig
-        role="Building tools for growth"
+        role="Tools for growth"
         org="Deliveroo"
         url="https://deliveroo.co.uk"
       />
@@ -29,11 +33,7 @@ export default () => (
         org="Wonderbly"
         url="https://www.wonderbly.com"
       />
-      <Gig
-        role="Democratising property"
-        org="Bricklane"
-        url="https://bricklane.com"
-      />
+      <Gig role="Property ISAs" org="Bricklane" url="https://bricklane.com" />
     </Segment>
     <Segment>
       <Subtitle>Links</Subtitle>
