@@ -6,6 +6,7 @@ import { string } from "prop-types";
 
 export default () => (
   <>
+    <Segment>Somewhat competent Software Engineer. Trying my best.</Segment>
     <Segment>
       <Subtitle>Currently</Subtitle>
       <Gig role="Building stuff" org="Daisie" url="https://www.daisie.com" />
