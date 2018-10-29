@@ -2,11 +2,31 @@
 
 set -eo pipefail
 
+# Validation
+echo "👀  Validating..."
 [ -z $AWS_PROFILE ] && (echo "Provide an AWS_PROFILE, please!" && exit 1)
 git diff-index --quiet HEAD || (echo "Commit your work, please!" && exit 1)
+echo "✅  Seems legit!"
+echo
 
+# Complain about missing variables from now on
 set -u
 
+# Run Webpack build
+echo "🔧  Compiling..."
 npm run build
 cd dist
-aws s3 sync . s3://joshmcmillan.com --acl public-read
+echo "✅  Compiled!"
+echo
+
+# Define bucket to upload to
+BUCKET="${BUCKET:-"joshmcmillan.com"}"
+
+# Perform upload
+echo "⬆️  Uploading to $BUCKET"
+aws s3 sync . s3://$BUCKET --acl public-read
+echo "✅  Done!"
+echo
+
+# Complete
+echo "✨  Deployed. We did it!"
