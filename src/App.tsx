@@ -8,10 +8,6 @@ import Body from "./components/Body";
 
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-import BlogPost from "./pages/BlogPost";
-import BlogIndex from "./pages/BlogIndex";
-
-import { blogPath } from "./util/paths";
 
 const HelmetStuff = () => (
   <Helmet>
@@ -28,8 +24,6 @@ export default () => (
       <Body>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path={blogPath()} component={BlogIndex} exact />
-          <Route path={blogPath(":id")} component={BlogPost} />
           <Route component={NotFound} />
         </Switch>
       </Body>
