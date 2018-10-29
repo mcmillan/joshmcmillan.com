@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
 export default styled.main`
-  max-width: 100vw;
+  min-height: 100vh;
+  padding: 1.25rem 2rem;
+  display: flex;
+  flex-direction: column;
 `;
