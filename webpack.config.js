@@ -2,6 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
+const { title, description } = require("./config.json");
+
 const outputDirectory = "dist";
 
 module.exports = {
@@ -37,7 +39,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin([outputDirectory]),
     new HtmlWebpackPlugin({
-      title: "josh mcmillan"
+      title,
+      meta: {
+        viewport: "width=device-width, initial-scale=1",
+        description
+      }
     })
   ],
   devServer: {
