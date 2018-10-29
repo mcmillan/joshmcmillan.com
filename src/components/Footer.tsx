@@ -16,7 +16,7 @@ const Footer = styled.footer`
 `;
 
 const Angry = styled(Text)`
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #ff8888;
 `;
 
