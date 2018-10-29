@@ -14,7 +14,7 @@ export default () => (
     <Segment>
       <Subtitle>Previously</Subtitle>
       <Gig
-        role="Delivering food"
+        role="Building tools for growth"
         org="Deliveroo"
         url="https://deliveroo.co.uk"
       />
