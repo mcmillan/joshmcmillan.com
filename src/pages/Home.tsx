@@ -2,11 +2,11 @@ import * as React from "react";
 import styled from "styled-components";
 import Text from "../components/Text";
 import ExternalLink from "../components/ExternalLink";
-import { string } from "prop-types";
+import { description } from "../../config.json";
 
 export default () => (
   <>
-    <Segment>Somewhat competent Software Engineer. Trying my best.</Segment>
+    <Segment>{description}</Segment>
     <Segment>
       <Subtitle>Currently</Subtitle>
       <Gig role="Building stuff" org="Daisie" url="https://www.daisie.com" />
