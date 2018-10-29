@@ -2,7 +2,8 @@
 
 set -euxo pipefail
 
-rm -rf dist
-PROD=yah webpack
+: ${AWS_PROFILE:?"Provide an AWS_PROFILE, please!"}
+
+npm run build
 cd dist
-AWS_PROFILE=personal aws s3 sync . s3://joshmcmillan.com --acl public-read
+aws s3 sync . s3://joshmcmillan.com --acl public-read

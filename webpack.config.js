@@ -1,8 +1,12 @@
+const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
+
+const outputDirectory = "dist";
 
 module.exports = {
   entry: "./src/index.tsx",
-  mode: process.env.PROD == "yah" ? "production" : "development",
+  mode: process.env.NODE_ENV || "development",
   module: {
     rules: [
       // typescript
@@ -23,15 +27,17 @@ module.exports = {
     ]
   },
   output: {
-    publicPath: "/"
+    publicPath: "/",
+    filename: "[name].[contenthash].js",
+    path: path.resolve(__dirname, outputDirectory)
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
   },
   plugins: [
+    new CleanWebpackPlugin([outputDirectory]),
     new HtmlWebpackPlugin({
-      title: "josh mcmillan",
-      hash: true
+      title: "josh mcmillan"
     })
   ],
   devServer: {
