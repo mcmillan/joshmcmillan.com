@@ -1,18 +1,16 @@
 import * as React from "react";
-import styled from "styled-components";
-import Text from "../components/Text";
+import Wedge from "../components/Wedge";
 import ExternalLink from "../components/ExternalLink";
+import Gig from "../components/Gig";
 import { description } from "../../config.json";
 
 export default () => (
   <>
-    <Segment>{description}</Segment>
-    <Segment>
-      <Subtitle>Currently</Subtitle>
+    <Wedge>{description}</Wedge>
+    <Wedge label="Currently">
       <Gig role="Figuring it out" org="Daisie" url="https://www.daisie.com" />
-    </Segment>
-    <Segment>
-      <Subtitle>Previously</Subtitle>
+    </Wedge>
+    <Wedge label="Previously">
       <Gig
         role="Building tools for growth"
         org="Deliveroo"
@@ -34,42 +32,19 @@ export default () => (
         org="GDS"
         url="https://www.gov.uk"
       />
-    </Segment>
-    <Segment>
-      <Subtitle>Links</Subtitle>
-      <br />
-      <ExternalLink href="https://twitter.com/jshmc">Twitter</ExternalLink>
-      <br />
-      <ExternalLink href="https://www.instagram.com/mcmillan.jpg/">
-        Instagram
-      </ExternalLink>
-      <br />
-      <ExternalLink href="https://github.com/mcmillan">GitHub</ExternalLink>
-    </Segment>
+    </Wedge>
+    <Wedge label="Links">
+      <div>
+        <ExternalLink href="https://twitter.com/jshmc">Twitter</ExternalLink>
+      </div>
+      <div>
+        <ExternalLink href="https://www.instagram.com/mcmillan.jpg/">
+          Instagram
+        </ExternalLink>
+      </div>
+      <div>
+        <ExternalLink href="https://github.com/mcmillan">GitHub</ExternalLink>
+      </div>
+    </Wedge>
   </>
-);
-
-const Segment = styled(Text)`
-  display: block;
-  margin-bottom: 1rem;
-`;
-
-const Subtitle = styled.div`
-  display: inline-block;
-  background-color: #000;
-  color: #fff;
-  padding: 0 0.5rem;
-  margin-bottom: 0.5rem;
-`;
-
-interface GigProps {
-  role: string;
-  org: string;
-  url: string;
-}
-
-const Gig = ({ role, org, url }: GigProps) => (
-  <div>
-    {role} at <ExternalLink href={url}>{org}</ExternalLink>
-  </div>
 );

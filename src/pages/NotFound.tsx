@@ -1,4 +1,4 @@
 import * as React from "react";
-import Text from "../components/Text";
+import Wedge from "../components/Wedge";
 
-export default () => <Text>Go away.</Text>;
+export default () => <Wedge label="404">Go away.</Wedge>;
