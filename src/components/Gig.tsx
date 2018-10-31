@@ -1,11 +1,6 @@
 import * as React from "react";
+import IGig from "../interfaces/IGig";
 import ExternalLink from "../components/ExternalLink";
-
-interface IGig {
-  role: string;
-  org: string;
-  url: string;
-}
 
 export default ({ role, org, url }: IGig) => (
   <div>
