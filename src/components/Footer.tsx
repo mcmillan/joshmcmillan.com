@@ -17,5 +17,9 @@ const Footer = styled.footer`
 `;
 
 const SeriouslyRecruitersPleasePayAttention = styled.strong`
-  color: #ff6666;
+  display: inline-block;
+  color: #fff;
+  background-color: #ff6666;
+  padding: 0.075rem 0.25rem;
+  margin-right: 0.25rem;
 `;
