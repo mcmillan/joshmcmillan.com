@@ -9,27 +9,31 @@ export default () => (
     <Segment>{description}</Segment>
     <Segment>
       <Subtitle>Currently</Subtitle>
-      <Gig role="Software" org="Daisie" url="https://www.daisie.com" />
+      <Gig role="Figuring it out" org="Daisie" url="https://www.daisie.com" />
     </Segment>
     <Segment>
       <Subtitle>Previously</Subtitle>
       <Gig
-        role="Tools for growth"
+        role="Building tools for growth"
         org="Deliveroo"
         url="https://deliveroo.co.uk"
       />
-      <Gig role="Making kids laugh" org="Beano" url="https://www.beano.com" />
       <Gig
-        role="Pleasing our alien overlords"
-        org="GDS"
-        url="https://www.gov.uk"
-      />
-      <Gig
-        role="Creating books for kids"
+        role="Personalising children's books"
         org="Wonderbly"
         url="https://www.wonderbly.com"
       />
-      <Gig role="Property ISAs" org="Bricklane" url="https://bricklane.com" />
+      <Gig role="Making kids laugh" org="Beano" url="https://www.beano.com" />
+      <Gig
+        role="Opening up the property market"
+        org="Bricklane"
+        url="https://bricklane.com"
+      />
+      <Gig
+        role="Reluctantly aiding the Tories"
+        org="GDS"
+        url="https://www.gov.uk"
+      />
     </Segment>
     <Segment>
       <Subtitle>Links</Subtitle>
