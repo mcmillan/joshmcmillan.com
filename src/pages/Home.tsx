@@ -2,11 +2,11 @@ import * as React from "react";
 import Wedge from "../components/Wedge";
 import ExternalLink from "../components/ExternalLink";
 import Gig from "../components/Gig";
-import { description } from "../../config.json";
+import config from "../util/config";
 
 export default () => (
   <>
-    <Wedge>{description}</Wedge>
+    <Wedge>{config.description}</Wedge>
     <Wedge label="Currently">
       <Gig role="Figuring it out" org="Daisie" url="https://www.daisie.com" />
     </Wedge>
