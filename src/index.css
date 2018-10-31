@@ -23,11 +23,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   font-feature-settings: "liga", "kern";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+
+  font-family: "GT Eesti", sans-serif;
+  color: #999;
 }
 
 body {
   background-color: #fff;
+
+  font-size: 1.25rem;
+  line-height: 1.5;
 }

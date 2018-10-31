@@ -1,26 +1,21 @@
 import * as React from "react";
 import styled from "styled-components";
-import Text from "./Text";
 
 export default () => (
   <Footer>
-    <Angry>
-      <Enraged>Recruiters:</Enraged> I don't want a job. Please do not contact
-      me.
-    </Angry>
+    <SeriouslyRecruitersPleasePayAttention>
+      Recruiters:
+    </SeriouslyRecruitersPleasePayAttention>
+    I don't want a job. Please do not contact me.
   </Footer>
 );
 
 const Footer = styled.footer`
   margin-top: auto;
-`;
-
-const Angry = styled(Text)`
   font-size: 0.8rem;
   color: #ff8888;
 `;
 
-const Enraged = styled.span`
+const SeriouslyRecruitersPleasePayAttention = styled.strong`
   color: #ff6666;
-  font-weight: bold;
 `;
