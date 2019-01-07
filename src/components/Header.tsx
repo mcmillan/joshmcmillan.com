@@ -1,10 +1,11 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import config from "../util/config";
 
 export default () => (
   <Header>
-    <Ident>Josh McMillan</Ident>
+    <Ident>{config.title}</Ident>
   </Header>
 );
 

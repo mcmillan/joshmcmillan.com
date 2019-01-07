@@ -7,7 +7,7 @@ import config from "../util/config";
 export default () => (
   <>
     <Wedge>{config.description}</Wedge>
-    <Wedge label="Currently">
+    {/* <Wedge label="Currently">
       <Gig role="Figuring it out" org="Daisie" url="https://www.daisie.com" />
     </Wedge>
     <Wedge label="Previously">
@@ -45,6 +45,6 @@ export default () => (
       <div>
         <ExternalLink href="https://github.com/mcmillan">GitHub</ExternalLink>
       </div>
-    </Wedge>
+    </Wedge> */}
   </>
 );

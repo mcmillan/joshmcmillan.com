@@ -19,7 +19,7 @@ export default () => (
           <Route component={NotFound} />
         </Switch>
       </Body>
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   </BrowserRouter>
 );
