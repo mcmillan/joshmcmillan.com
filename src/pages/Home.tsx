@@ -6,45 +6,56 @@ import config from "../util/config";
 
 export default () => (
   <>
-    <Wedge>{config.description}</Wedge>
-    {/* <Wedge label="Currently">
-      <Gig role="Figuring it out" org="Daisie" url="https://www.daisie.com" />
-    </Wedge>
-    <Wedge label="Previously">
+    <Wedge label="next">i'm not sure yet – maybe you can help?</Wedge>
+    <Wedge label="previous">
       <Gig
-        role="Building tools for growth"
-        org="Deliveroo"
+        role="helping young creatives work together"
+        org="daisie"
+        url="https://www.daisie.com"
+      />
+      <Gig
+        role="building tools for growth"
+        org="deliveroo"
         url="https://deliveroo.co.uk"
       />
       <Gig
-        role="Personalising children's books"
-        org="Wonderbly"
+        role="personalising children's books"
+        org="wonderbly"
         url="https://www.wonderbly.com"
       />
-      <Gig role="Making kids laugh" org="Beano" url="https://www.beano.com" />
+      <Gig role="making kids laugh" org="beano" url="https://www.beano.com" />
       <Gig
-        role="Opening up the property market"
-        org="Bricklane"
+        role="opening up the property market"
+        org="bricklane"
         url="https://bricklane.com"
       />
       <Gig
-        role="Reluctantly aiding the Tories"
-        org="GDS"
+        role="reluctantly aiding the tories"
+        org="gds"
         url="https://www.gov.uk"
       />
     </Wedge>
-    <Wedge label="Links">
+    <Wedge label="links">
       <div>
-        <ExternalLink href="https://twitter.com/jshmc">Twitter</ExternalLink>
+        <ExternalLink href="https://twitter.com/jshmc">twitter</ExternalLink>
       </div>
       <div>
         <ExternalLink href="https://www.instagram.com/mcmillan.jpg/">
-          Instagram
+          instagram
         </ExternalLink>
       </div>
       <div>
-        <ExternalLink href="https://github.com/mcmillan">GitHub</ExternalLink>
+        <ExternalLink href="https://github.com/mcmillan">github</ExternalLink>
       </div>
-    </Wedge> */}
+    </Wedge>
+    <Wedge label="contact">
+      <div>
+        <ExternalLink href="mailto:josh@joshmcmillan.co.uk">
+          josh@joshmcmillan.co.uk
+        </ExternalLink>
+      </div>
+
+      <div>no wallies</div>
+    </Wedge>
   </>
 );
