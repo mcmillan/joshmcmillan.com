@@ -6,7 +6,7 @@ import config from "../util/config";
 
 export default () => (
   <>
-    <Wedge label="next">i'm not sure yet – maybe you can help?</Wedge>
+    <Wedge label="next">i'm not sure yet, and that's okay</Wedge>
     <Wedge label="previous">
       <Gig
         role="helping young creatives work together"
