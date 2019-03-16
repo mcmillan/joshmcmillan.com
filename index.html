@@ -39,27 +39,30 @@
       }
 
       .line {
-        height: 50%;
+        height: 50vh;
         display: flex;
         align-items: center;
-        font-size: 50vh;
+        font-size: 45vh;
         overflow: hidden;
       }
 
-      .black {
+      .line.top {
+        font-weight: bold;
+      }
+
+      .line.bottom {
         background-color: #000;
         color: #fff;
-        font-weight: bold;
       }
     </style>
   </head>
 
   <body>
-    <div class="line">
+    <div class="line top">
       <marquee direction="left">JOSH</marquee>
     </div>
 
-    <div class="line black">
+    <div class="line bottom">
       <marquee direction="right">MCMILLAN</marquee>
     </div>
   </body>
