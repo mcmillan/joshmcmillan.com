@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "GT Eesti";
+  font-weight: normal;
+
+  src: url("/fonts/GT-Eesti-Text-Regular.woff2") format("woff2"),
+    url("/fonts/GT-Eesti-Text-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GT Eesti";
+  font-weight: bold;
+
+  src: url("/fonts/GT-Eesti-Text-Bold.woff2") format("woff2"),
+    url("/fonts/GT-Eesti-Text-Bold.woff") format("woff");
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.eesti {
+  font-family: "GT Eesti", sans-serif;
+}
