@@ -1,0 +1,11 @@
+{
+  "name": "joshmcmillan.com",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "serve"
+  },
+  "devDependencies": {
+    "serve": "^11.0.0"
+  }
+}
