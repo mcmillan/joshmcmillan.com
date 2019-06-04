@@ -24,7 +24,9 @@
             i +
             '" style="animation-delay: ' +
             i +
-            's;" direction="' +
+            "s; transform: rotate(" +
+            (4 - Math.round(8 * Math.random())) +
+            'deg);" direction="' +
             (i % 2 ? "left" : "right") +
             '">Josh McMillan</marquee>'
         );
