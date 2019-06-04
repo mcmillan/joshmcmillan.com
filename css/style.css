@@ -24,3 +24,18 @@
 .pressura {
   font-family: "GT Pressura", sans-serif;
 }
+
+marquee {
+  animation: pulse 10s ease infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
