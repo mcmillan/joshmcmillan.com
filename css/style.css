@@ -1,41 +1,19 @@
 @font-face {
-  font-family: "GT Pressura";
+  font-family: "GT Cinetype";
   font-weight: normal;
 
-  src: url("/fonts/GT-Pressura-Light.woff2") format("woff2"),
-    url("/fonts/GT-Pressura-Light.woff") format("woff");
+  src: url("/fonts/GT-Cinetype-Light.woff2") format("woff2"),
+    url("/fonts/GT-Cinetype-Light.woff") format("woff");
 }
 
 @font-face {
-  font-family: "GT Pressura";
+  font-family: "GT Cinetype";
   font-weight: bold;
 
-  src: url("/fonts/GT-Pressura-Bold.woff2") format("woff2"),
-    url("/fonts/GT-Pressura-Bold.woff") format("woff");
+  src: url("/fonts/GT-Cinetype-Bold.woff2") format("woff2"),
+    url("/fonts/GT-Cinetype-Bold.woff") format("woff");
 }
 
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-.pressura {
-  font-family: "GT Pressura", sans-serif;
-}
-
-marquee {
-  animation: pulse 10s ease infinite;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
+.cinetype {
+  font-family: "GT Cinetype", sans-serif;
 }
