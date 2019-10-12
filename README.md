@@ -5,8 +5,8 @@ A website that I change whenever I get bored.
 ## Development
 
 1. Clone this repository
-1. `npm install`
-1. `npm run dev`
+1. `yarn`
+1. `yarn dev`
 
 ## Deployment
 

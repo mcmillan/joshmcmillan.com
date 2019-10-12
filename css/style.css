@@ -1,19 +1,7 @@
-@font-face {
-  font-family: "GT Cinetype";
-  font-weight: normal;
-
-  src: url("/fonts/GT-Cinetype-Light.woff2") format("woff2"),
-    url("/fonts/GT-Cinetype-Light.woff") format("woff");
+body {
+  padding: 1rem;
 }
 
-@font-face {
-  font-family: "GT Cinetype";
-  font-weight: bold;
-
-  src: url("/fonts/GT-Cinetype-Bold.woff2") format("woff2"),
-    url("/fonts/GT-Cinetype-Bold.woff") format("woff");
-}
-
-.cinetype {
-  font-family: "GT Cinetype", sans-serif;
+h1 {
+  margin: 0 0 1rem;
 }

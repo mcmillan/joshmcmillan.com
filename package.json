@@ -1,6 +1,6 @@
 {
   "name": "joshmcmillan.com",
-  "version": "0.0.0-butts",
+  "version": "next",
   "private": true,
   "scripts": {
     "dev": "serve"
