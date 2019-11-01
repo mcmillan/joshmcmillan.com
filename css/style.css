@@ -52,18 +52,24 @@ body {
   color: #fff;
 }
 
+h1,
+p {
+  margin: 0 0 1rem;
+  max-width: 700px;
+}
+
 main {
   margin-top: auto;
 }
 
-h1 {
-  font-size: 1.75rem;
+ul {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  list-style: none;
 }
 
-h1,
-p {
-  margin: 0 0 1rem;
-  max-width: 80%;
+h1 {
+  font-size: 1.75rem;
 }
 
 a {
@@ -75,16 +81,27 @@ a {
   font-size: 0.5rem;
   line-height: 1.5;
   color: #444;
-  margin: 2rem 0 0;
+  margin-bottom: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   body {
     padding: 0.5rem 1rem;
   }
 
   h1,
-  p {
-    max-width: initial;
+  p,
+  ul {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 360px) {
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    font-size: 22px;
   }
 }
