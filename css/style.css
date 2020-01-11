@@ -25,10 +25,10 @@ button,
 input,
 select,
 textarea {
-  font-family: "GT America", "GT America", -apple-system, BlinkMacSystemFont,
+  font-family: "GT America", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,19 +54,13 @@ body {
 
 h1,
 p {
-  margin: 0 0 1rem;
-  max-width: 700px;
+  margin: 0 0 0.75rem;
 }
 
 main {
   margin-top: auto;
 }
 
-ul {
-  margin: 0 0 0.5rem;
-  padding: 0;
-  list-style: none;
-}
 
 h1 {
   font-size: 1.75rem;
@@ -77,23 +71,11 @@ a {
   font-weight: bold;
 }
 
-.recruiters {
-  font-size: 0.5rem;
-  line-height: 1.5;
-  color: #444;
-  margin-bottom: 0;
-}
-
 @media (max-width: 700px) {
   body {
     padding: 0.5rem 1rem;
   }
 
-  h1,
-  p,
-  ul {
-    max-width: 420px;
-  }
 }
 
 @media (max-width: 360px) {
@@ -102,6 +84,6 @@ a {
   input,
   select,
   textarea {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
