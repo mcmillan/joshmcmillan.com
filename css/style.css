@@ -1,19 +1,10 @@
 @font-face {
-  font-family: "GT America";
+  font-family: "GT Cinetype";
   font-weight: normal;
   font-style: normal;
 
-  src: url("/fonts/GT-America-Standard-Regular.woff2") format("woff2"),
-    url("/fonts/GT-America-Standard-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "GT America";
-  font-weight: bold;
-  font-style: normal;
-
-  src: url("/fonts/GT-America-Standard-Bold.woff2") format("woff2"),
-    url("/fonts/GT-America-Standard-Bold.woff") format("woff");
+  src: url("/fonts/GT-Cinetype-Regular.woff2") format("woff2"),
+    url("/fonts/GT-Cinetype-Regular.woff") format("woff");
 }
 
 * {
@@ -25,13 +16,11 @@ button,
 input,
 select,
 textarea {
-  font-family: "GT America", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 28px;
-  line-height: 1.75;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "GT Cinetype", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 html,
@@ -41,49 +30,5 @@ body {
 }
 
 body {
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  min-height: -moz-available;
-  min-height: -webkit-fill-available;
-  min-height: fill-available;
-  background-color: #000;
-  color: #fff;
-}
-
-h1,
-p {
-  margin: 0 0 0.75rem;
-}
-
-main {
-  margin-top: auto;
-}
-
-
-h1 {
-  font-size: 1.75rem;
-}
-
-a {
-  color: inherit;
-  font-weight: bold;
-}
-
-@media (max-width: 700px) {
-  body {
-    padding: 0.5rem 1rem;
-  }
-
-}
-
-@media (max-width: 360px) {
-  html,
-  button,
-  input,
-  select,
-  textarea {
-    font-size: 20px;
-  }
+  padding: 1rem;
 }
