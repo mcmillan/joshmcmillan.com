@@ -10,4 +10,4 @@ A website that I change whenever I get bored.
 
 ## Deployment
 
-Push to `master` and it's deployed to Netlify.
+Push to `main` and it's deployed to Netlify.
