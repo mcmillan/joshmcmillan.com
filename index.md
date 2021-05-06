@@ -14,7 +14,7 @@ In my spare time, I look after iOS at [Poolside FM](https://poolside.fm), a summ
 
 In the past, I've helped build software for [Deliveroo](https://deliveroo.co.uk), [The Beano](https://beano.com), the [Government Digital Service](https://gov.uk), [Wonderbly](https://wonderbly.com), [Daisie](https://daisie.com), [Banked](https://banked.com), [Bricklane](https://bricklane.com) and the [BBC](https://bbc.co.uk), amongst many others.
 
-## Contact <span class="emoji">👋</span>
+## Say hello <span class="emoji">👋</span>
 
 You can get in touch with me via email – I'm [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com).
 
