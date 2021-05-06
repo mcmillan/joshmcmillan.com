@@ -12,7 +12,7 @@ In my spare time, I'm the iOS dogsbody at [Poolside FM](https://poolside.fm), a 
 
 ## Previously <span class="emoji">📆</span>
 
-In the past, I've built software for [Deliveroo](https://deliveroo.co.uk), [The Beano](https://beano.com), the [Government Digital Service](https://gov.uk), [Wonderbly](https://wonderbly.com), [Daisie](https://daisie.com), [Banked](https://banked.com) and [Bricklane](https://bricklane.com), amongst many others.
+In the past, I've built software for [Deliveroo](https://deliveroo.co.uk), [The Beano](https://beano.com), the [Government Digital Service](https://gov.uk), [Wonderbly](https://wonderbly.com), [Daisie](https://daisie.com), [Banked](https://banked.com), [Bricklane](https://bricklane.com) and the [BBC](https://bbc.co.uk), amongst many others.
 
 ## Contact <span class="emoji">👋</span>
 
