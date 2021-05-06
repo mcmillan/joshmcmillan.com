@@ -23,3 +23,5 @@ I'm not currently interested in new work – I really like my job. Please don't 
 ## Elsewhere <span class="emoji" aria-hidden="true">🔗</span>
 
 You can find me on Twitter at [@jshmc](https://twitter.com/jshmc), and on LinkedIn [here](https://www.linkedin.com/in/jshmc/).
+
+The code for this website is available on GitHub under an MIT license, [here](https://github.com/mcmillan/joshmcmillan.com).
