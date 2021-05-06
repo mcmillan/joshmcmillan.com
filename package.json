@@ -1,10 +1,23 @@
 {
   "name": "joshmcmillan.com",
-  "private": true,
+  "version": "0.0.1",
+  "description": "",
   "scripts": {
-    "start": "serve"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmillan/joshmcmillan.com.git"
+  },
+  "keywords": [],
+  "author": "Josh McMillan <josh@joshmcmillan.com> (https://joshmcmillan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcmillan/joshmcmillan.com/issues"
+  },
+  "homepage": "https://github.com/mcmillan/joshmcmillan.com#readme",
   "devDependencies": {
-    "serve": "^11.3.2"
+    "@11ty/eleventy": "^0.12.1"
   }
 }
