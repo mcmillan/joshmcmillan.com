@@ -76,5 +76,16 @@ main {
 }
 
 a {
-  color: #0000aa;
+  color: #00a;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #111;
+  }
+
+  a {
+    color: #fa9;
+  }
 }
