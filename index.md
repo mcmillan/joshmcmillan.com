@@ -19,3 +19,7 @@ In the past, I've helped build software for [Deliveroo](https://deliveroo.co.uk)
 You can get in touch with me via email – I'm [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com).
 
 I'm not currently interested in new work – I really like my job. Please don't contact me about that kind of thing, particularly if you're a recruiter.
+
+## Elsewhere <span class="emoji">🔗</span>
+
+You can find me on Twitter at [@jshmc](https://twitter.com/jshmc), and on LinkedIn [here](https://www.linkedin.com/in/jshmc/).
