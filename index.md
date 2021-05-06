@@ -2,9 +2,9 @@
 layout: layout.njk
 ---
 
-Hello, I'm Josh. I build software. <span class="emoji">👨‍💻</span>
+Hello, I'm Josh. I build software.
 
-## Now <span class="emoji">🕺</span>
+## Now <span class="emoji">👨‍💻</span>
 
 By day, I'm CTO at [Contact](https://contact.xyz), a platform for booking creatives.
 
@@ -16,4 +16,6 @@ In the past, I've built software for [Deliveroo](https://deliveroo.co.uk), [The 
 
 ## Contact <span class="emoji">👋</span>
 
-You can get in touch with me at [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com). **No recruiters, please.**
+You can get in touch with me at [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com).
+
+I'm not currently interested in new work – I really like my job. Please don't contact me about that kind of thing, particularly if you're a recruiter.
