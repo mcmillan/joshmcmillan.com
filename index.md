@@ -2,7 +2,7 @@
 layout: layout.njk
 ---
 
-Hello, I'm Josh. I help create software, as a hands-on programmer and engineering leader.
+Hello, I'm Josh. I help create software as a hands-on programmer and engineering leader.
 
 ## Now <span class="emoji">👨‍💻</span>
 
