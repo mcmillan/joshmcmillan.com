@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GT Eesti";
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 
   src: url("/fonts/GT-Eesti-Text-Light.woff2") format("woff2"),
@@ -9,11 +9,20 @@
 
 @font-face {
   font-family: "GT Eesti";
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 
   src: url("/fonts/GT-Eesti-Text-Regular.woff2") format("woff2"),
     url("/fonts/GT-Eesti-Text-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GT Eesti";
+  font-weight: 900;
+  font-style: normal;
+
+  src: url("/fonts/GT-Eesti-Text-Bold.woff2") format("woff2"),
+    url("/fonts/GT-Eesti-Text-Bold.woff") format("woff");
 }
 
 * {
@@ -31,7 +40,7 @@ textarea {
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 body,
@@ -46,8 +55,16 @@ body {
   justify-content: center;
 }
 
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 2rem 0 0.5rem;
+}
+
 p {
-  margin-bottom: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
 }
 
 p:last-child {
@@ -59,5 +76,5 @@ main {
 }
 
 a {
-  color: #000;
+  color: #0000aa;
 }
