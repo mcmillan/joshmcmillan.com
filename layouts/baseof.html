@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {{ $styles := resources.Get "css/index.css" }}
+
+    {{ if .Site.IsServer }}
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+    {{ else }}
+      {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+    {{ end }}
+  </head>
+
+  <body>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </body>
+</html>
