@@ -6,7 +6,7 @@ Hello, I'm Josh. I help create software as a hands-on programmer and engineering
 
 {{< titleWithEmoji "Now" "👨‍💻">}}
 
-By day, I'm Chief Technology Officer at [Contact](https://contact.xyz), a platform for booking creatives.
+I'm currently finishing up as Chief Technology Officer at [Contact](https://contact.xyz), a platform for booking creatives. I'll be available for **new work** from **December 2021**.
 
 In my spare time, I look after iOS at [Poolside FM](https://poolside.fm), a summer-themed music platform.
 
@@ -17,8 +17,6 @@ In the past, I've helped build software for [Deliveroo](https://deliveroo.co.uk)
 {{< titleWithEmoji "Say hello" "👋">}}
 
 You can get in touch with me via email – I'm [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com).
-
-I'm not currently interested in new work – I really like my job. Please don't contact me about that kind of thing, particularly if you're a recruiter.
 
 {{< titleWithEmoji "Elsewhere" "🔗">}}
 
