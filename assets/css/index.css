@@ -54,8 +54,6 @@ html {
 body {
   padding: 2rem 1.5rem;
   display: grid;
-  align-items: center;
-  justify-content: center;
   background-color: #f3f4f6;
 }
 
@@ -76,24 +74,14 @@ p:last-child {
 }
 
 main {
-  max-width: 800px;
+  max-width: 720px;
 }
 
 a {
   color: #1d4ed8;
+  font-weight: bold;
 }
 
 .emoji {
   float: right;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #fff;
-    background-color: #111827;
-  }
-
-  a {
-    color: #f59e0b;
-  }
 }
