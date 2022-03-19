@@ -75,6 +75,8 @@ p:last-child {
 
 main {
   max-width: 720px;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -84,4 +86,26 @@ a {
 
 .emoji {
   float: right;
+}
+
+.footnotes {
+  margin-top: auto;
+  padding-top: 2rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.footnotes hr {
+  height: 1px;
+  border: none;
+  background-color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.footnotes ol {
+  margin-left: 1rem;
+}
+
+.footnotes ol li {
+  padding-top: 0.5rem;
 }
