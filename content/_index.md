@@ -20,7 +20,7 @@ Prior to that, I helped build software for [Deliveroo](https://deliveroo.co.uk),
 
 You can book in a meeting with me via Calendly, [here](https://calendly.com/jshmc/open-1-1).
 
-If that's too full-on, or you'd like to get to know me better, get in touch with me via email – I'm [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com) – or you can send me a DM on Twitter, where I'm [@jshmc](https://twitter.com/jshmc).
+If that's too full-on, or you'd like to get to know me better, say hello via email – I'm [josh@joshmcmillan.com](mailto:josh@joshmcmillan.com) – or you can send me a DM on Twitter, where I'm [@jshmc](https://twitter.com/jshmc).
 
 [^mcr]: It has [a lot of rain](https://en.wikipedia.org/wiki/Manchester#Climate). Maybe that's the reason that [Oasis](<https://en.wikipedia.org/wiki/Oasis_(band)>)'s music isn't very good.
 [^availability]: I'm currently only available for freelance work on a part-time basis – I have two days per week to spare. I'd really like to work on projects that actively improve people's lives – tools that help them overcome a struggle via technology. I'm also interested in projects that involve audio, music and radio. I don't find crypto or web3 particularly exciting, unless it's attached to a product with a meaningful vision and a plan to neutralise its carbon impact.
