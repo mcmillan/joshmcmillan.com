@@ -35,10 +35,15 @@ p:last-child {
 }
 
 a {
-  @apply underline decoration-2;
+  @apply underline decoration-2 text-slate-500;
   text-underline-offset: 3px;
 }
 
 a:hover {
   @apply opacity-80;
+}
+
+a:focus {
+  @apply bg-slate-500 text-white outline outline-slate-500 outline-offset-0 outline-2;
+  text-decoration-color: inherit;
 }
