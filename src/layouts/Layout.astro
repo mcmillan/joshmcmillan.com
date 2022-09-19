@@ -3,20 +3,18 @@ import "../styles/global.css";
 const { title } = Astro.params;
 ---
 
-<html lang="en" class="min-h-screen">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{title && `${title} | `}Josh McMillan</title>
   </head>
-  <body
-    class="p-8 sm:p-12 min-h-screen flex flex-col justify-between text-slate-800 bg-slate-100"
-  >
+  <body class="p-8 sm:p-12 flex flex-col text-slate-800 bg-slate-100">
     <main class="max-w-2xl">
       <slot />
     </main>
-    <footer class="text-center sm:text-left text-slate-400">
+    <footer class="text-center sm:text-left text-slate-400 mt-auto">
       <a href="https://twitter.com/jshmc">Twitter</a>
       &middot;
       <a href="https://github.com/mcmillan">GitHub</a>
