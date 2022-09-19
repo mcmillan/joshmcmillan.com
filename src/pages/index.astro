@@ -1,8 +1,24 @@
 ---
+import Pane from "../components/Pane.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <h1 class="font-bold text-2xl mb-1">Josh McMillan</h1>
-  <p>is a software engineer based in Manchester, UK.</p>
+  <Pane>
+    <p>
+      <strong>Josh McMillan</strong> is a programmer based in Manchester, UK.
+    </p>
+
+    <p>
+      I like making software that people love to use, either as an individual
+      contributor or leader. I try not to tie myself to any one technology or
+      stack, but these days I really like working with Rails, React, Swift and
+      Elixir.
+    </p>
+
+    <p>
+      I work at <a href="https://tuple.app" class="text-indigo-600">Tuple</a>,
+      where I look after backend and web engineering.
+    </p>
+  </Pane>
 </Layout>
