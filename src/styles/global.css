@@ -16,6 +16,12 @@
   font-display: swap;
 }
 
+html {
+  display: grid;
+  min-height: 100vh;
+  min-height: stretch;
+}
+
 h1 {
   @apply text-2xl font-bold;
 }
