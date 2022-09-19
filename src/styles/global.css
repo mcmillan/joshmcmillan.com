@@ -35,7 +35,8 @@ p:last-child {
 }
 
 a {
-  @apply underline;
+  @apply underline decoration-2;
+  text-underline-offset: 3px;
 }
 
 a:hover {
