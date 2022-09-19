@@ -1,0 +1,19 @@
+h1 {
+  @apply text-2xl font-bold;
+}
+
+p {
+  @apply text-lg mb-6 leading-relaxed;
+}
+
+p:last-child {
+  @apply mb-0;
+}
+
+a {
+  @apply underline;
+}
+
+a:hover {
+  @apply opacity-80;
+}
