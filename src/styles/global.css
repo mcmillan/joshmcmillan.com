@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Diatype';
+  src: url('/fonts/ABCDiatype-Regular.woff2') format('woff2'),
+       url('/fonts/ABCDiatype-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Diatype';
+  src: url('/fonts/ABCDiatype-Bold.woff2') format('woff2'),
+    url('/fonts/ABCDiatype-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
+
 h1 {
   @apply text-2xl font-bold;
 }
