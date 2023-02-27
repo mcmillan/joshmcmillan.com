@@ -11,14 +11,17 @@ import Layout from "../layouts/Layout.astro";
 
     <p>
       I like making software that people love to use, either as an individual
-      contributor or leader. I try not to tie myself to any one technology or
-      stack, but these days I really like working with Rails, React, Swift and
-      Elixir.
+      contributor or leader. I work at <a
+        href="https://tuple.app"
+        class="tuple-link">Tuple</a
+      >, where I look after backend and web engineering.
     </p>
 
     <p>
-      I work at <a href="https://tuple.app" class="tuple-link">Tuple</a>, where
-      I look after backend and web engineering.
+      In my spare time I help with theatrical sound design at the <a
+        href="https://www.altrinchamgarrick.co.uk/"
+        class="garrick-link">Altrincham Garrick</a
+      >.
     </p>
   </Pane>
 </Layout>
@@ -30,5 +33,13 @@ import Layout from "../layouts/Layout.astro";
 
   .tuple-link:focus {
     @apply bg-indigo-600 outline-indigo-600;
+  }
+
+  .garrick-link {
+    @apply text-red-600;
+  }
+
+  .garrick-link:focus {
+    @apply bg-red-600 outline-red-600;
   }
 </style>
