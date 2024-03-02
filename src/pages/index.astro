@@ -1,27 +1,17 @@
 ---
-import Pane from "../components/Pane.astro";
 import Layout from "../layouts/Layout.astro";
+import Link from '../components/Link.astro';
 ---
 
 <Layout>
-  <Pane>
+  <div class="bg-white rounded-xl p-6 border border-slate-400 mb-6 shadow-lg space-y-4">
     <p>
       <strong>Josh McMillan</strong> is a programmer based in Manchester, UK.
     </p>
 
     <p>
-      I work at <a href="https://tuple.app" class="tuple-link">Tuple</a>, where
+      I work at <Link href="https://tuple.app" class="text-indigo-600 focus:bg-indigo-600 focus:outline-indigo-600">Tuple</Link>, where
       I look after backend and web engineering.
     </p>
-  </Pane>
+  </div>
 </Layout>
-
-<style>
-  .tuple-link {
-    @apply text-indigo-600;
-  }
-
-  .tuple-link:focus {
-    @apply bg-indigo-600 outline-indigo-600;
-  }
-</style>
