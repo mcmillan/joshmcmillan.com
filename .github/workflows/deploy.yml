@@ -13,10 +13,15 @@ jobs:
           node-version-file: .nvmrc
       - run: npm ci
       - run: npm run build
+      - uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
+          tags: tag:zoidberg-deploy
       - uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
           log-public-key: false
       - run: |
-          ssh-keyscan joshmcmillan.com >> ~/.ssh/known_hosts
-          rsync -avz --delete ./dist/ deploy@joshmcmillan.com:/var/www/joshmcmillan.com
+          ssh-keyscan zoidberg >> ~/.ssh/known_hosts
+          rsync -avz --delete ./dist/ deploy@zoidberg:/var/www/joshmcmillan.com
