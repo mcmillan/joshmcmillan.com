@@ -1,7 +1,5 @@
 {
-  "name": "@example/minimal",
   "type": "module",
-  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -11,8 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^2.0.1",
-    "astro": "^1.2.6",
-    "tailwindcss": "^3.1.8"
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.4.9",
+    "postcss-100vh-fix": "^1.0.2",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1"
   }
 }

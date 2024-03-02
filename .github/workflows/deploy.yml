@@ -11,8 +11,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-      - run: npm ci
-      - run: npm run build
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: |
+            args: [--frozen-lockfile, --strict-peer-dependencies]
+      - run: pnpm build
       - uses: tailscale/github-action@v2
         with:
           oauth-client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
