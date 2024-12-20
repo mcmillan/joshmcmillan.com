@@ -11,7 +11,7 @@
     "lint": "prettier -c ."
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/tailwind": "^5.1.4",
     "astro": "^4.15.10",
     "postcss-100vh-fix": "^1.0.2",
     "tailwind-merge": "^2.5.2",
