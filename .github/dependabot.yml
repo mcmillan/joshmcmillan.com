@@ -6,3 +6,9 @@ updates:
       - mcmillan
     schedule:
       interval: daily
+  - package-ecosystem: github-actions
+    directory: /
+    assignees:
+      - mcmillan
+    schedule:
+      interval: daily
