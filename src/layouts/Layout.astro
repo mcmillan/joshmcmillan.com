@@ -13,16 +13,9 @@ const { title } = Astro.props;
 
     <title>{title || "Josh McMillan"}</title>
   </head>
-  <body class="p-8 sm:p-12 text-slate-800 bg-slate-100 grid">
-    <main class="max-w-2xl text-lg leading-relaxed">
+  <body class="p-8">
+    <main class="max-w-2xl text-lg leading-relaxed space-y-4">
       <slot />
     </main>
-    <footer class="text-center sm:text-left text-slate-400 mt-auto">
-      <Link href="https://twitter.com/jshmc">Twitter</Link>
-      &middot;
-      <Link href="https://github.com/mcmillan">GitHub</Link>
-      &middot;
-      <Link href="https://linkedin.com/in/jshmc">LinkedIn</Link>
-    </footer>
   </body>
 </html>

@@ -4,19 +4,24 @@ import Link from "../components/Link.astro";
 ---
 
 <Layout>
-  <div
-    class="bg-white rounded-xl p-6 border border-slate-400 mb-6 shadow-lg space-y-4"
-  >
-    <p>
-      <strong>Josh McMillan</strong> is a programmer based in Manchester, UK.
-    </p>
+  <p>
+    Hello. I'm <strong>Josh McMillan</strong>, a software engineering enthusiast
+    based in the UK.
+  </p>
 
-    <p>
-      I work at <Link
-        href="https://tuple.app"
-        class="text-indigo-600 focus:bg-indigo-600 focus:outline-indigo-600"
-        >Tuple</Link
-      >, where I look after backend and web engineering.
-    </p>
-  </div>
+  <p>I tend to help folks out by either:</p>
+
+  <ul class="list-disc list-inside">
+    <li>
+      shipping high-quality software as an individual contributor, <em>or</em>
+    </li>
+    <li>coaching and mentoring teams to ship high-quality software</li>
+  </ul>
+
+  <p>
+    If you reckon I could help you out with either of those, drop me an email.
+  </p>
+  <p>
+    <Link href="mailto:josh@joshmcmillan.com">josh@joshmcmillan.com</Link>
+  </p>
 </Layout>
