@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: "Diatype";
   src:
@@ -16,4 +18,8 @@
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+
+@theme {
+  --font-sans: "Diatype", sans-serif;
 }
