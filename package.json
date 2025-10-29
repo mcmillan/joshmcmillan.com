@@ -11,7 +11,7 @@
     "lint": "prettier -c ."
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.12",
+    "@tailwindcss/vite": "^4.1.16",
     "astro": "^5.15.2",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.16"
