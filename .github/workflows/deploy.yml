@@ -18,7 +18,7 @@ jobs:
           corepack install
           pnpm install --frozen-lockfile --strict-peer-dependencies
       - run: pnpm build
-      - uses: tailscale/github-action@v3
+      - uses: tailscale/github-action@v4
         with:
           oauth-client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
